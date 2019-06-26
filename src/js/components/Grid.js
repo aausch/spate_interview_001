@@ -1,8 +1,6 @@
 import React from 'react'
 import { StyleSheet, css } from 'aphrodite/no-important';
 
-import { theme } from '../theme'
-
 export default class Grid extends React.PureComponent {
 
     render () {
@@ -20,7 +18,7 @@ export default class Grid extends React.PureComponent {
 
 const styles = StyleSheet.create({
     wrapper: {
-        width: '100%',
+        width: '10%',
         display: 'flex',
         flexDirection: 'row',
         flexWrap: 'wrap'

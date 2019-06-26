@@ -2,7 +2,7 @@ import _ from 'lodash';
 import * as types from '../actions/user.actiontypes'
 
 
-const videoReducer = (user = {}, action) => {
+const userReducer = (user = {}, action) => {
 
     switch (action.type) {
         case types.USER_GET:
@@ -17,4 +17,4 @@ const videoReducer = (user = {}, action) => {
 
 }
 
-export default videoReducer
+export default userReducer

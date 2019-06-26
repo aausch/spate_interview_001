@@ -56,8 +56,6 @@ class AccountView extends React.PureComponent {
     }
 
     onLogout = () => {
-        // Let's pretend here I'm actually making a network request.
-        // Session reducer could behave the same by also remove currentUser from state
         const { logoutUser } = this.props;
         logoutUser({})
     }
